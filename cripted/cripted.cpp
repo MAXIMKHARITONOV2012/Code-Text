@@ -19,7 +19,7 @@ int main()
 	{
 		for (int i = 0; i < text.size(); i++)
 		{
-			if (text[i] >= 32 && text[i] <= 126) {
+			if (text[i] >= 0 && text[i] <= 126) {
 				text[i] = text[i] + i;
 			}
 			else {
@@ -38,7 +38,7 @@ int main()
 		{
 			for (int i = 0; i < text.size(); i++)
 			{
-				if (text[i] >= 32 && text[i] <= 126) {
+				if (text[i] >= 0 && text[i] <= 126) {
 
 					text[i] = text[i] - i;
 				}
